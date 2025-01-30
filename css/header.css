@@ -1,0 +1,285 @@
+#hero {
+    height: 100vh;
+    background-color: var(--dark-green);
+
+
+    &>.container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+
+        .left_container {
+            width: 35%;
+            height: 100%;
+            z-index: 1;
+
+            .hero_content {
+                position: absolute;
+                left: 50%;
+                top: 210px;
+                transform: translateX(-71%);
+
+
+                h3 {
+                    color: var(--primary-p300);
+                    font-family: "Work Sans";
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 32px;
+                    display: inline-block;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+
+                    &>span {
+                        width: 109px;
+                        height: 1px;
+                        display: inline-block;
+                        background-color: #C7C7C7;
+                        vertical-align: middle;
+                    }
+                }
+
+                h1 {
+                    color: var(--neutral-n0);
+                    font-family: "Bricolage Grotesque";
+                    font-size: 88px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 106px;
+                    text-transform: capitalize;
+                    width: 694px;
+                }
+
+                p {
+                    color: var(--neutral-n200);
+                    font-family: "Work Sans";
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 34px;
+                    width: 904px;
+                    z-index: 1;
+                    /* 141.667% */
+                }
+
+                .hero_btn {
+                    transform: translateY(125px);
+
+                    .btn_left_arrow,
+                    .btn_right_arrow {
+                        width: 82px;
+                        height: 66px;
+                        border: none;
+                        outline: none;
+                        background-color: #FFF;
+
+                        &:hover {
+                            background-color: rgba(255, 255, 255, 0.60);
+                        }
+
+                        svg {
+                            fill: #FFF;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .right_container {
+            width: 65%;
+            height: 100%;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/hero_img.jpg");
+            background-repeat: no-repeat;
+            background-position: right;
+
+            .hero_featured_card {
+                width: 564px;
+                height: 256px;
+                padding: 30px;
+                background-color: rgba(255, 255, 255, 0.86);
+                backdrop-filter: blur(10px);
+                position: absolute;
+                bottom: 10px;
+                right: 10px;
+                border-radius: 6px;
+
+                .row {
+                    display: flex;
+                    justify-content: space-between;
+
+                    h3 {
+                        width: 229px;
+                        color: var(--neutral-n90);
+                        font-family: "Bricolage Grotesque";
+                        font-size: 28px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 38px;
+                        text-transform: capitalize;
+                    }
+
+                    a {
+                        color: var(--primary-p500, #255751);
+                        text-align: right;
+                        font-family: "Work Sans";
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 32px;
+                        /* 160% */
+                        text-transform: uppercase;
+                    }
+
+                    .featured {
+                        color: var(--success-s600, #15A466);
+                        font-family: "Work Sans";
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 32px;
+                        text-transform: capitalize;
+                        border: 1px solid var(--success-s400);
+                        background-color: rgba(209, 251, 212, 0.40);
+                        width: 134px;
+                        height: 40px;
+                        padding: 4px 13px;
+
+                        svg {
+                            width: 20px;
+                            height: 20px;
+                            vertical-align: middle;
+                        }
+                    }
+
+                    .whats_inside {
+                        
+                        transform: translateY(-46px);
+                        p {
+                            color: var(--neutral-n900);
+                            font-family: "Work Sans";
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 32px;
+                            text-transform: capitalize;
+                            text-align: end;
+                            margin-bottom: 14px;
+                        }
+
+                        .icons_container {
+                            display: flex;
+                            gap: 12px;
+
+                            .icon {
+                                border: 1px solid var(--additional1-a300);
+                                background: var(--additional1-a200);
+                                padding: 8px;
+
+                                svg {
+                                    vertical-align: middle;
+                                    width: 18px;
+                                    height: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .line {
+                    width: 1px;
+                    height: 44px;
+                    background-color: #989898;
+                    margin-block: 18px;
+                }
+            }
+        }
+    }
+
+
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+    &>.container {
+        width: 80%;
+
+        nav {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+
+            .logo {
+                color: var(--additional1-a500);
+                font-family: "Bricolage Grotesque";
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 46px;
+                letter-spacing: 7.2px;
+                text-transform: uppercase;
+                margin-left: 36px;
+
+            }
+
+            .navbar {
+                display: flex;
+                gap: 40px;
+
+
+
+                .nav_items {
+
+                    .nav_link {
+                        color: var(--neutral-n0);
+                        font-family: "Bricolage Grotesque";
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 26px;
+                        text-transform: capitalize;
+
+                        sup {
+                            color: var(--neutral-n0);
+                            font-family: "Bricolage Grotesque";
+                            font-size: 10px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 20px;
+                            text-transform: capitalize;
+                            margin-right: 8px;
+                        }
+
+                        svg {
+                            vertical-align: middle;
+                        }
+                    }
+
+                    .btn {
+                        color: var(--neutral-n0);
+                        font-family: "Work Sans";
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 26px;
+                        letter-spacing: 1.8px;
+                        text-transform: uppercase;
+                        background: var(--additional1-a500);
+                        padding: 17px 40px;
+                    }
+                }
+            }
+        }
+    }
+}

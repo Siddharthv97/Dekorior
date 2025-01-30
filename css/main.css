@@ -1,0 +1,342 @@
+@import url(./reset.css);
+
+/* Header CSS  */
+@import url(./header.css);
+
+/* About us Section Start */
+#about_us {
+    height: 100vh;
+    padding: 65px 120px;
+
+    &>.container {
+        display: flex;
+
+        &>.left_container {
+            width: 35%;
+            background: #FFF;
+            display: flex;
+            flex-direction: column;
+            /* border: 1px solid black; */
+
+            &>.left_container_content {
+                width: 438px;
+                height: 663px;
+                border: 1px solid var(--neutral-n400);
+
+                &>img {
+                    width: 432.285px;
+                    height: 607px;
+                    transform: translate(36px, -36px);
+                }
+
+                &>p {
+                    color: var(--primary-p500);
+                    font-family: "Work Sans";
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 32px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    margin-left: 36px;
+                }
+            }
+
+
+        }
+
+        &>.right_container {
+            width: 65%;
+
+
+            &>h3 {
+                color: var(--primary-p400, #579A8C);
+                font-family: "Work Sans";
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 32px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+
+                &>span {
+                    width: 109px;
+                    height: 1px;
+                    background-color: #C7C7C7;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+
+            &>h2 {
+                width: 684px;
+                color: var(--neutral-n900);
+                font-family: "Bricolage Grotesque";
+                font-size: 52px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 62px;
+                text-transform: capitalize;
+            }
+
+            &>.line {
+                width: 684px;
+                height: 1px;
+                background-color: #C7C7C7;
+            }
+
+            &>p {
+                width: 684px;
+                color: var(--neutral-n800);
+                font-family: "Work Sans";
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px;
+                /* 160% */
+            }
+
+            &>.card_container {
+
+                display: flex;
+
+                &>.card_body {
+                    &>.card_icon {
+                        width: 50px;
+                        height: 50px;
+                    }
+
+                    &>h3 {
+                        width: 291px;
+                        color: var(--neutral-n900);
+                        font-family: "Work Sans";
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 36px;
+                    }
+
+                    &>p {
+                        width: 320px;
+                        color: var(--neutral-n800);
+                        font-family: "Work Sans";
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 28px;
+                    }
+                }
+            }
+
+            &>a {
+                color: var(--primary-p500);
+                text-align: right;
+                font-family: "Work Sans";
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 32px;
+                text-transform: uppercase;
+
+                &>svg {
+                    margin-left: 8px;
+                }
+            }
+        }
+    }
+}
+
+/* About us Section End */
+
+/* Service Section Start */
+
+#service {
+    height: 100vh;
+    padding: 50px 120px;
+    background: var(--additional2-a300);
+
+    &>.container {
+
+        &>h2 {
+            color: var(--additional1-a500);
+            font-family: "Bricolage Grotesque";
+            font-size: 52px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 62px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+
+        &>p {
+            width: 851px;
+            color: var(--neutral-n800);
+            text-align: center;
+            font-family: "Work Sans";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 34px;
+            margin: auto;
+        }
+
+        &>.row {
+            width: auto;
+            display: flex;
+            justify-content: center;
+
+            &>.col {
+                width: 372px;
+                height: 419px;
+                background: var(--additional2-a300);
+                padding: 49px 43px;
+                /* border: 1px solid red; */
+
+                &:hover {
+                    background-color: var(--additional2-a400);
+                }
+
+                &>h3 {
+                    width: 288px;
+                    color: var(--neutral-n900);
+                    font-family: "Work Sans";
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 50px;
+                    text-transform: capitalize;
+                }
+
+                &>p {
+                    width: 288px;
+                    color: var(--neutral-n800);
+                    font-family: "Work Sans";
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 28px;
+                }
+            }
+
+            &>.line {
+                width: 1px;
+                height: 419px;
+                background-color: #E4DDCD;
+            }
+        }
+
+        .service_btn {
+            text-align: center;
+
+            .btn {
+                color: var(--neutral-n0, #FFF);
+                text-align: center;
+                font-family: "Work Sans";
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 26px;
+                letter-spacing: 1.8px;
+                text-transform: uppercase;
+                background-color: var(--additional1-a500);
+                display: inline-block;
+                padding: 17px 42px;
+                margin: auto;
+            }
+        }
+
+    }
+}
+
+/* Service Section End */
+
+/* How the Process Section Start */
+
+#process {
+    /* height: 100vh; */
+    padding: 50px 120px;
+
+    &>.container {
+
+        &>.row {
+            display: flex;
+            justify-content: space-between;
+
+            &>.col-1 {
+                p {
+                    color: var(--primary-p400, #579A8C);
+                    font-family: "Work Sans";
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 32px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+
+                    &>span {
+                        width: 109px;
+                        height: 1px;
+                        background-color: #C7C7C7;
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+                }
+
+                &>h2 {
+                    color: var(--neutral-n900);
+                    font-family: "Bricolage Grotesque";
+                    font-size: 52px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 62px;
+                    text-transform: capitalize;
+                }
+            }
+
+            &>.col-2 {
+                p {
+                    width: 503px;
+                    color: var(--neutral-n800);
+                    text-align: right;
+                    font-family: "Work Sans";
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 32px;
+                }
+            }
+        }
+        
+        &>.flex_container{
+            height: 750px;
+            border: 1px solid black;
+
+            &>.flex_row{
+                height: 250px;
+                border: 1px solid red;
+                display: flex;
+                
+
+                &>.flex_item{
+                    /* width: 350px; */
+                    border: 1px solid blue;
+                    flex: 1 0 350px;
+                }
+
+                &>.item2{
+                    flex: 7.45;
+                }
+                &>.item6{
+                    flex: 7.45;
+                }
+            }
+        }
+            
+
+           
+            
+        
+    }
+}
+
+/* How the Process Section End */
