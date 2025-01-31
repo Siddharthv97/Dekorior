@@ -1,0 +1,71 @@
+/* Google Fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Bricolage Grotesque",
+serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+font-variation-settings: "wdth" 100; */
+
+/* font-family: "Work Sans",
+serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal; */
+
+:root{
+    
+    /* colors  */
+    --dark-green:#255751;
+    --light-green:#86CCB7;
+
+    --additional1-a200: #FBEBB0;
+    --additional1-a300: #F4DA86;
+    --additional1-a500:#DCAA37;
+
+    --additional2-a300: #F9F6EF;
+    --additional2-a400: #F3F0E7;
+
+    --neutral-n0:#fff;
+
+    --primary-p100: #DAF6E8;
+    --primary-p300:#86CCB7;
+    --primary-p400: #579A8C;
+    --primary-p500:#255751;
+
+    --neutral-n200: #EBEBEB;
+    --neutral-n400: #989898;
+    --neutral-n800: #313131;
+    --neutral-n900:#181818;
+
+    --success-s400:#4FD881;
+}
+
+/* Universal Selector  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+
+.container{
+    width: 1440px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
