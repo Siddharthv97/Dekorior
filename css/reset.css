@@ -15,57 +15,75 @@ font-optical-sizing: auto;
 font-weight: <weight>;
 font-style: normal; */
 
-:root{
-    
+:root {
+
     /* colors  */
-    --dark-green:#255751;
-    --light-green:#86CCB7;
+    --dark-green: #255751;
+    --light-green: #86CCB7;
 
     --additional1-a200: #FBEBB0;
     --additional1-a300: #F4DA86;
-    --additional1-a500:#DCAA37;
+    --additional1-a500: #DCAA37;
 
     --additional2-a300: #F9F6EF;
     --additional2-a400: #F3F0E7;
 
-    --neutral-n0:#fff;
+    --neutral-n0: #fff;
 
     --primary-p100: #DAF6E8;
-    --primary-p300:#86CCB7;
+    --primary-p300: #86CCB7;
     --primary-p400: #579A8C;
-    --primary-p500:#255751;
+    --primary-p500: #255751;
+    --primary-p600: #1B4A49;
 
     --neutral-n200: #EBEBEB;
     --neutral-n400: #989898;
     --neutral-n800: #313131;
-    --neutral-n900:#181818;
+    --neutral-n900: #181818;
 
-    --success-s400:#4FD881;
+    --success-s400: #4FD881;
 }
 
 /* Universal Selector  */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html,
+body {
     scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;
+    /* scroll-snap-type: y mandatory; */
+    height: 100%;
 }
 
+section {
+    scroll-snap-align: start;
+}
 
-.container{
+.container {
     width: 1440px;
-    margin: auto;
+    height: 100%;
+    margin: 0 auto;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Bricolage Grotesque",
+        serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
