@@ -270,7 +270,6 @@
 /* How the Process Section Start */
 
 #process {
-    height: 100vh;
     padding: 50px 120px;
 
     &>.container {
