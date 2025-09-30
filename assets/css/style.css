@@ -1,0 +1,1078 @@
+/* Import CSS Files Start */
+
+/* Base CSS  */
+@import url(./base.css);
+
+/* Responsive CSS  */
+@import url(./responsive.css);
+
+/* Import CSS Files End */
+
+
+/* HomePage Start  */
+
+/* Hero Section Start */
+
+/* Navigation Section Start */
+
+
+
+/* Left container */
+
+
+.left-content {
+    width: fit-content
+        /* z-index: 1; */
+}
+
+.heading-text {
+    h5 {
+        color: var(--primary-p300);
+        /* 160% */
+        letter-spacing: 2px;
+    }
+
+    hr {
+        color: #fff;
+        width: 109px;
+        z-index: 0;
+    }
+}
+
+.hero-text {
+    font-family: "Bricolage-Grotesque";
+    color: var(--neutral-n0);
+}
+
+.detail-text {
+    color: var(--neutral-n200);
+}
+
+.hero-btn {
+
+    .btn {
+        width: 5.125rem;
+        height: 4.125rem;
+        background-color: var(--neutral-n0);
+        border-radius: 0;
+        border: none;
+
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.6);
+
+        }
+    }
+}
+
+/* Right container Start  */
+
+.right-container {
+    height: 818px;
+    background: linear-gradient(rgb(0, 0, 0, 0.25)), url(../image/img/hero_img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.right-content {
+    width: fit-content;
+    height: fit-content;
+    background-color: var(--neutral-n0);
+    z-index: 0 !important;
+    background: rgba(255, 255, 255, 0.86);
+    backdrop-filter: blur(10px);
+}
+
+
+/* upper text content Start */
+.upper-text {
+
+    h5 {
+        color: var(--primary-p500);
+        text-align: right;
+        /* 160% */
+    }
+}
+
+/* upper text content End */
+
+/* bottom text content Start*/
+
+.custom-badge {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 13px;
+    border-color: var(--success-s400);
+    background-color: #D1FBD466;
+
+    span {
+        color: var(--success-s600);
+    }
+}
+
+.icon-text-container {
+    p {
+        color: var(--neutral-n900);
+        /* 177.778% */
+    }
+
+    .svg-container {
+        width: 34px;
+        height: 34px;
+        background-color: var(--additional-1-a200);
+
+
+        img {
+            width: 18px;
+            height: 18px;
+        }
+    }
+}
+
+/* bottom text content End*/
+/* Right container End */
+
+/* Desktop Hero Section End */
+
+
+
+
+/* Mobile Hero Section Start */
+.mob-hero-bg {
+    height: 100dvh;
+    background: linear-gradient(rgb(0, 0, 0, 0.25)), url(../image/img/hero_img.jpg);
+}
+
+/* Mobile Hero Section End */
+/* Mobile Hero Section End */
+
+/* ================= About US Section Style Start ================= */
+
+#about {
+    padding: 100px 0;
+}
+
+.about-img {
+    width: 100%;
+    height: 607px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: -36px;
+}
+
+.about-img-wrapper {
+    width: 100%;
+    height: 663px;
+    border: 1px solid var(--primary-p500);
+    padding-left: 36px;
+
+    h5 {
+        letter-spacing: 2px;
+        color: var(--primary-p500);
+        margin: 30px 0;
+    }
+}
+
+
+.about-content-wrapper {
+    /* height: 663px; */
+
+    h4 {
+        color: var(--primary-p400);
+        line-height: 32px;
+        letter-spacing: 2px;
+    }
+
+    h1 {
+        color: var(--neutral-n900);
+        font-family: "Bricolage-Grotesque";
+        font-size: 52px;
+        font-style: normal;
+        line-height: 62px;
+    }
+
+    p {
+        color: var(--neutral-n800);
+        line-height: 32px
+    }
+}
+
+.card-container {
+    h4 {
+        color: var(--neutral-n900);
+        letter-spacing: 0px;
+        /* 150% */
+    }
+
+    p {
+        color: var(--neutral-n800);
+        line-height: 28px;
+        /* 155.556% */
+    }
+}
+
+.aboutBtn {
+    color: var(--primary-p500) !important;
+
+    img {
+        margin-left: 8px;
+    }
+}
+
+.about-col-2 {
+    margin-bottom: 5rem;
+}
+
+/* ================= About US Section Style End ================= */
+
+/* ================= Service Section Style Start ================= */
+
+#service {
+    background: var(--additional-2-a300);
+}
+
+.animate-heading {
+    font-family: "Bricolage-Grotesque" !important;
+    text-transform: lowercase;
+
+    &:nth-child(1) {
+        text-transform: uppercase;
+    }
+
+    &:nth-child(4) {
+        text-transform: uppercase;
+    }
+}
+
+.service-heading {
+    color: var(--additional-1-a500);
+    font-family: "Bricolage-Grotesque";
+    margin-bottom: 1.5rem;
+    overflow-y: hidden !important;
+    /* 119.231% */
+
+    div {
+        font-family: "Bricolage-Grotesque" !important;
+    }
+}
+
+.service-text {
+    color: var(--neutral-n800);
+    /* margin-bottom: 1; */
+}
+
+#service {
+    padding: 100px 0;
+
+    .card-container {
+
+        &:hover {
+            background-color: var(--additional-2-a400);
+        }
+
+        h4 {
+            color: var(--neutral-n900);
+            font-size: 32px;
+
+            /* 156.25% */
+            text-transform: capitalize;
+        }
+    }
+
+    .btn {
+        /* margin-top: 1rem; */
+        color: var(--neutral-n0);
+        line-height: 26px;
+        /* 144.444% */
+        letter-spacing: 1.8px;
+        background: var(--additional-1-a500);
+        padding: 17px 42px;
+    }
+}
+
+/* ================= Service Section Style End ================= */
+
+
+/* ================= Process Section Style Start ================= */
+
+#process {
+    padding: 100px 0;
+
+    .heading-text {
+        color: var(--primary-p400);
+        /* 160% */
+        letter-spacing: 2px;
+    }
+
+    .subheading-text {
+        color: var(--neutral-n900);
+        font-family: "Bricolage-Grotesque";
+        /* 119.231% */
+    }
+
+    .col-6 {
+        p {
+            color: var(--neutral-n800);
+            /* 160% */
+        }
+    }
+}
+
+.grid-row {
+    /* background: #D9D9D9; */
+
+    .img-fluid {
+        width: 100%;
+        height: 400px !important;
+        object-fit: cover;
+    }
+}
+
+
+.grid-card {
+    padding: 40px 40px;
+    background: var(--primary-p500);
+    height: 400px !important;
+
+    h3 {
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: var(--additional-1-a500);
+        font-family: "Bricolage-Grotesque";
+        color: transparent;
+        font-size: 200px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 210px;
+        /* 105% */
+        text-transform: uppercase;
+    }
+
+    p {
+        color: var(--primary-p100);
+    }
+}
+
+/* ================= Process Section Style End ================= */
+
+/* ================= Portfolio Section Style Start ================= */
+#portfolio {
+    padding: 100px 0;
+
+    .heading-text {
+        color: var(--additional-1-a500);
+        font-family: "Bricolage-Grotesque";
+    }
+
+    .description-text {
+        color: var(--neutral-n800);
+        /* 141.667% */
+    }
+
+    .btn {
+        color: var(--neutral-n0);
+        padding: 1.0625rem 4.8125rem;
+        /* 144.444% */
+        letter-spacing: 1.8px;
+        border: 1px solid rgba(255, 255, 255, 0.50);
+        background: var(--additional-1-a500);
+    }
+}
+
+.portfolio-tabs {
+    .nav-link {
+        color: var(--primary-p600);
+        /* 150% */
+    }
+}
+
+.portfolio-img-lg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#portfolio {
+    .right-content {
+        bottom: 15px;
+        right: 20px;
+    }
+}
+
+.portfolio-img-small {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* ================= Portfolio Section Style End ================= */
+
+
+/* ================= Latest Blog Section Style Start ================= */
+
+#blog {
+    padding: 6.25rem 0;
+
+    .heading-text {
+        color: var(--neutral-n900);
+        font-family: "Bricolage-Grotesque";
+        /* 119.231% */
+    }
+}
+
+.post-container {
+    border-top: 6px solid var(--neutral-n200);
+    border-bottom: 0.8px solid var(--neutral-n200);
+    background: var(--neutral-n0);
+    padding: 2.5rem 0;
+
+    .meta-date {
+        color: var(--primary-p500);
+        /* 160% */
+        letter-spacing: 2px;
+    }
+
+    .blog-title {
+        color: var(--neutral-n900);
+    }
+
+    .blog-description {
+        color: var(--neutral-n800);
+        /* 155.556% */
+    }
+
+    .blog-post-link {
+        color: var(--primary-p500);
+    }
+}
+
+/* ================= Latest Blog Section Style End ================= */
+
+/* ================= testimonial Section Style Start ================= */
+
+#testimonial {
+    padding: 6.25rem 0;
+
+    .col-12,
+    .col-md-11 {
+        background-color: var(--primary-p500);
+
+    }
+}
+
+#testimonial {
+    .heading-text {
+        h2 {
+            color: var(--neutral-n0);
+            /* 160% */
+            letter-spacing: 2px;
+
+        }
+    }
+
+    .subheading-text {
+        color: var(--additional-1-a500);
+        font-family: "Bricolage-Grotesque";
+        /* 130% */
+    }
+}
+
+.showcase {
+
+    .user-profile {
+        h3 {
+            color: var(--neutral-n0);
+        }
+    }
+
+    .users {
+        padding: 12px;
+        border: 1px solid #579A8C;
+    }
+
+    .user-sm {
+        width: 6.9375rem;
+        height: 6.9375rem;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .user-lg {
+        width: 10.5rem;
+        height: 10.5rem;
+    }
+}
+
+.rating {
+    p {
+        color: #A9A9A9;
+
+        span {
+            &:nth-child(1) {
+                color: var(--neutral-n0);
+                font-weight: 500;
+                /* 177.778% */
+            }
+        }
+    }
+}
+
+.testimonial-btn {
+    p {
+        color: var(--neutral-n0);
+        /* 145.455% */
+    }
+
+    .btn {
+        width: 5.125rem;
+        height: 4.125rem;
+        background-color: var(--neutral-n0);
+        border-radius: 0;
+        border: none;
+
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.6);
+
+        }
+    }
+}
+
+/* ================= testimonial Section Style End ================= */
+
+
+
+
+/* ======================== Pricing Page Style Start ======================== */
+
+
+#pricing-header {
+    height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.25)), url(../image/img/Pricing-header.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.pricing-hero-section {
+    height: 100vh;
+}
+
+.pricing-hero-content {
+    .subtitle {
+        hr {
+            width: 109px;
+            height: 2px;
+            background-color: var(--neutral-n300);
+            opacity: 1;
+        }
+    }
+
+    .title {
+
+        h1 {
+            color: var(--neutral-n0);
+            font-family: "Bricolage-Grotesque";
+            font-size: 6rem;
+        }
+
+        h2 {
+            left: -40px;
+            top: 16px;
+            -webkit-text-stroke-width: 0.8px;
+            -webkit-text-stroke-color: rgba(255, 255, 255, 0.50);
+            font-family: "Bricolage-Grotesque";
+            font-size: 9.375rem;
+            color: transparent;
+        }
+    }
+}
+
+#pricing-plans {
+    padding: 6.25rem 0;
+}
+
+.subheading-title {
+    hr {
+        width: 6.8125rem;
+        height: .0625rem;
+        background-color: var(--neutral-n300);
+    }
+
+    h3 {
+        color: var(--primary-p400);
+        text-align: center;
+        letter-spacing: 2px;
+    }
+}
+
+.heading-title {
+    margin-bottom: 120px;
+
+    h1 {
+        color: var(--neutral-n900);
+        text-align: center;
+        font-family: "Bricolage-Grotesque";
+        /* 138.462% */
+    }
+}
+
+.pricing-card-wrapper {
+    gap: 7.875rem;
+}
+
+.pricing-card {
+    width: 337px;
+
+    background-color: var(--additional-2-a300);
+    padding: 0 2.125rem;
+    transform: translate(31px, -41px);
+
+    .card-img-container {
+        background-color: var(--primary-p500);
+        width: 8.75rem;
+        height: 8.75rem;
+        position: absolute;
+        transform: translateY(-4.0625rem);
+
+        .card-img {
+            width: 5rem;
+            height: 5rem;
+        }
+    }
+
+    .pricing-card-title {
+        color: var(--primary-p500);
+        padding-top: 6.25rem;
+    }
+
+    .pricing-card-text {
+        color: var(--neutral-n800);
+    }
+
+    .pricing-card-payment {
+        h2 {
+            color: var(--primary-p500);
+            font-family: "Bricolage-Grotesque";
+        }
+
+        span {
+            color: var(--neutral-n400);
+        }
+    }
+
+    .pricing-card-info {
+        color: var(--neutral-n800);
+    }
+
+    ul {
+        padding-left: 0;
+
+        li {
+            display: flex;
+            align-items: center;
+            gap: .875rem;
+
+            img {
+                width: 1.625rem;
+                height: 1.625rem;
+            }
+
+            span {
+                color: var(--primary-p500);
+                font-size: 1rem;
+                font-weight: 500;
+                line-height: 32px;
+                /* 200% */
+            }
+        }
+    }
+
+    .btn {
+        color: var(--neutral-n0);
+        font-family: "Bricolage-Grotesque";
+        /* 144.444% */
+        letter-spacing: 1.8px;
+        background: var(--additional-1-a500);
+        padding: 1.0625rem 2.5rem;
+        border-radius: 0;
+    }
+}
+
+/* ======================== FAQ Pricing Page Style Start ======================== */
+
+#faq {
+    padding: 6.25rem 0;
+}
+
+.faq-wrapper {
+    height: 100%;
+
+    .sm-heading {
+        h4 {
+            color: var(--primary-p400);
+            letter-spacing: 2px;
+        }
+
+        hr {
+            width: 109px;
+            height: 1px;
+        }
+    }
+
+    h2 {
+        color: var(--neutral-n900);
+        font-family: "Bricolage-Grotesque";
+        /* 119.231% */
+    }
+}
+
+.faq-list-wrapper {
+    background: var(--additional-2-a200);
+}
+
+.nav-pills {
+    .nav-link {
+        border-radius: 0 !important;
+        color: var(--neutral-n400);
+        font-weight: 400;
+        padding: 1.1875rem 3.375rem 1.1875rem 1.6875rem;
+        border-top: 1px solid var(--neutral-n200);
+        border-bottom: 1px solid var(--neutral-n200);
+
+        /* 150% */
+    }
+
+    .nav-link.active {
+
+        border-left-width: .25rem;
+        font-weight: 500;
+        border-left-style: solid;
+        border-left-color: #DCAA37;
+        color: var(--additional-1-a500);
+        background-color: transparent;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-decoration-skip-ink: none;
+        text-decoration-thickness: auto;
+        text-underline-offset: auto;
+        text-underline-position: from-font;
+    }
+}
+
+.faq-content-wrapper {
+    background: var(--primary-p500);
+
+    .tab-content {
+        padding: 3rem 7.5rem 3rem 3.1875rem;
+    }
+}
+
+.tab-pane {
+    h2 {
+        color: var(--additional-1-a500);
+        font-family: Raleway;
+        margin-bottom: 40px;
+
+        /* 137.5% */
+    }
+
+    p {
+        color: var(--neutral-n0);
+        /* 160% */
+        margin-bottom: 40px;
+    }
+
+    ul {
+        padding-left: 0;
+
+        li {
+            color: var(--neutral-n0);
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px;
+            list-style: disc;
+            /* 160% */
+        }
+    }
+}
+
+/* ======================== FAQ Pricing Page Style End ======================== */
+
+/* ======================== Hire me  Style Start ======================== */
+
+#hire {
+    .row {
+        .col-12 {
+            height: 35.5625rem;
+
+            &:nth-child(1) {
+                background: var(--primary-p500);
+
+                a {
+                    color: var(--neutral-n0);
+                    font-size: 18px;
+                    /* 144.444% */
+                    letter-spacing: 1.8px;
+                    padding: 1.0625rem 2.3125rem;
+                    background: var(--additional-1-a500);
+
+                }
+            }
+
+            &:nth-child(2) {
+                padding: 0;
+                background-image: url(../image/img/hireme_img.jpg);
+                background-position: bottom;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+}
+
+.hire-text-content {
+    h2 {
+        color: var(--neutral-n0);
+        font-family: "Bricolage-Grotesque";
+    }
+
+    p {
+        color: var(--neutral-n0);
+    }
+}
+
+/* ======================== Hire me  Style End ======================== */
+
+/* ======================== Pricing Page Style End ======================== */
+
+
+/* ======================== About us Page Style Start ======================== */
+
+#about-us-header {
+    height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.25)), url(../image/img/aboutus-hero.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about-hero-section {
+    height: 100vh;
+}
+
+.about-hero-section {
+    .subtitle {
+        hr {
+            width: 109px;
+            height: 2px;
+            background-color: var(--neutral-n300);
+            opacity: 1;
+        }
+    }
+
+    .title {
+
+        h1 {
+            color: var(--neutral-n0);
+            font-family: "Bricolage-Grotesque";
+            font-size: 6rem;
+        }
+
+        h2 {
+            left: -40px;
+            top: 16px;
+            -webkit-text-stroke-width: 0.8px;
+            -webkit-text-stroke-color: rgba(255, 255, 255, 0.50);
+            font-family: "Bricolage-Grotesque";
+            font-size: 9.375rem;
+            color: transparent;
+        }
+    }
+}
+
+/* About Section 1 Start */
+
+/* About Content Start */
+
+.about-content {
+
+    height: 21.5rem;
+
+    .subtitle {
+        h2 {
+            color: var(--primary-p400);
+            letter-spacing: 2px;
+        }
+
+        hr {
+            width: 109px;
+            height: 0px;
+        }
+    }
+
+    h1 {
+        color: var(--neutral-n900);
+        font-family: "Bricolage-Grotesque";
+    }
+
+    p {
+        color: var(--neutral-n800);
+
+        /* 160% */
+    }
+}
+
+
+/* About Content End */
+
+
+#about-section-1 {
+    padding-top: 6.25rem;
+}
+
+/* About Section 1 Image Start */
+
+.about-img-1 {
+    width: 368px;
+    height: 476px;
+    flex-shrink: 0;
+}
+
+.about-img-2 {
+    width: 342px;
+    height: 342px;
+    flex-shrink: 0;
+    border: 15px solid var(--neutral-n0);
+    /* margin: -35% 0 0 15%; */
+    margin: -40% 0 0 -23%;
+}
+
+/* About Section 1 Image End */
+
+.row-2 {
+
+    background: var(--additional-2-a300);
+    margin: -12% 0 0 0;
+    padding: 3.75rem 0;
+
+    .card-body {
+        h1 {
+            color: var(--primary-p500);
+            font-family: "LibreCaslonText";
+        }
+
+        p {
+            color: var(--primary-p500);
+            width: 157px !important;
+        }
+    }
+}
+
+/* About Section 1 End */
+
+/* About Section 2 Start */
+
+#about-section-2 {
+
+    background-image: url(../image/icons/Quotes-section-bg.svg);
+
+    .row {
+        height: 27.5rem;
+
+        h1 {
+            color: var(--additional-1-a500);
+            font-family: "Bricolage-Grotesque";
+        }
+    }
+}
+
+/* About Section 2 End */
+
+
+/* About Section 3 Start */
+
+#about-section-3 {
+    padding: 6.3rem 0;
+
+    .title {
+        margin-bottom: 1.875rem;
+
+        h2 {
+            color: var(--primary-p500);
+            /* 160% */
+            letter-spacing: 2px;
+        }
+
+        hr {
+            width: 109px;
+            height: 1px;
+        }
+    }
+
+    h1 {
+        color: var(--neutral-n900);
+        font-family: "Bricolage-Grotesque";
+    }
+
+    .card-container {
+        .card-body {
+            width: 330px;
+            height: 182px;
+
+            h3 {
+                color: var(--neutral-n900);
+            }
+
+            p {
+                color: var(--neutral-n800);
+            }
+        }
+    }
+}
+
+.divider-line {
+    border-left: 2px dashed #dee2e6;
+    height: 100%;
+}
+
+#about-section-3 {
+    .row {
+        .Left-Column {
+            h1 {
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: rgba(220, 170, 55, 0.50);
+                font-family: "Bricolage Grotesque";
+                font-size: 256px;
+                font-style: normal;
+                line-height: 210px;
+                color: transparent;
+                /* 82.031% */
+                margin-right: 250px;
+            }
+        }
+
+        .Right-Column {
+            h1 {
+                color: rgba(220, 170, 55, 0.06);
+                font-family: "Bricolage-Grotesque";
+                font-size: 16rem;
+                line-height: 210px;
+                /* 82.031% */
+                margin-left: 250px;
+            }
+        }
+    }
+}
+
+
+/* About Section 3 End */
+
+
+
+
+
+
+/* ======================== About us Page Style End ======================== */

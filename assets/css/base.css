@@ -1,0 +1,438 @@
+/* Import Font style Start */
+
+@font-face {
+    font-family: worksans;
+    src: url(../fonts/WorkSans.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: Bricolage-Grotesque;
+    src: url(../fonts/BricolageGrotesque.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: LibreCaslonText;
+    src: url(../fonts/LibreCaslonText-Bold.woff2);
+}
+
+/* Import Font style End */
+
+/* Root CSS Start  */
+
+:root {
+
+    /* Color  */
+
+    /* Additional Colors  */
+    --additional-1-a200: #FBEBB0;
+    --additional-1-a300: #F4DA86;
+    --additional-1-a500: #DCAA37;
+    --additional-2-a200: #FDFBF6;
+    --additional-2-a300: #F9F6EF;
+    --additional-2-a400: #F3F0E7;
+    --additional-2-a500: #ECE7DC;
+
+    /* Neutral Colors  */
+    --neutral-n0: #FFFFFF;
+    --neutral-n200: #EBEBEB;
+    --neutral-n300: #C7C7C7;
+    --neutral-n400: #989898;
+    --neutral-n500: #787878;
+    --neutral-n700: #4A4A4A;
+    --neutral-n800: #313131;
+    --neutral-n900: #181818;
+
+    /* Primary Colors */
+    --primary-p100: #DAF6E8;
+    --primary-p200: #B7EED8;
+    --primary-p300: #86CCB7;
+    --primary-p400: #579A8C;
+    --primary-p500: #255751;
+    --primary-p600: #1B4A49;
+
+    /* Success Colors  */
+    --success-s400: #4FD881;
+    --success-s600: #15A466;
+
+    /* Golden Colors  */
+    --golden: #F2B024;
+}
+
+/* Root CSS End */
+
+/* Universal Selectors Start  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Universal Selectors End */
+
+/* Tags Selectors Start  */
+html {
+    scroll-behavior: smooth;
+    font-size: 14px;
+}
+
+body {
+    font-family: worksans;
+    overflow-x: hidden;
+    /* font-size: 16px; */
+}
+
+img,
+svg {
+    vertical-align: unset;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Tags Selectors End  */
+
+/* Class Tags Start */
+
+/* Font Size Start */
+
+.fs-14 {
+    font-size: .875rem !important;
+}
+
+.fs-16 {
+    font-size: 1rem !important;
+}
+
+.fs-18 {
+    font-size: 1.125rem !important;
+}
+
+.fs-20 {
+    font-size: 1.25rem !important;
+}
+
+.fs-22 {
+    font-size: 1.375rem !important;
+}
+
+.fs-24 {
+    font-size: 1.5rem !important;
+}
+
+.fs-28 {
+    font-size: 1.75rem !important;
+}
+
+.fs-36 {
+    font-size: 2.25rem !important;
+}
+
+.fs-48 {
+    font-size: 3rem !important;
+}
+
+.fs-52 {
+    font-size: 3.25rem !important;
+}
+
+.fs-88 {
+    font-size: 5.5rem !important;
+}
+
+/* Font Size End */
+
+/* Line height Start */
+
+.lh-24 {
+    line-height: 1.5rem;
+}
+
+.lh-26 {
+    line-height: 1.625rem;
+}
+
+.lh-28 {
+    line-height: 1.75rem;
+}
+
+.lh-32 {
+    line-height: 2rem;
+}
+
+.lh-34 {
+    line-height: 2.125rem;
+}
+
+.lh-42 {
+    line-height: 2.625rem;
+}
+
+.lh-44 {
+    line-height: 2.75rem;
+}
+
+.lh-46 {
+    line-height: 2.875rem;
+}
+
+.lh-50 {
+    line-height: 3.125rem;
+}
+
+.lh-58 {
+    line-height: 3.625rem;
+}
+
+.lh-62 {
+    line-height: 3.875rem;
+}
+
+.lh-67 {
+    line-height: 4.1875rem;
+}
+
+.lh-68 {
+    line-height: 4.25rem;
+}
+
+.lh-72 {
+    line-height: 72px;
+}
+
+.lh-82 {
+    line-height: 82px;
+}
+
+.lh-106 {
+    line-height: 6.625rem;
+}
+
+/* Line height End */
+
+/* Class Tags End */
+
+
+/* ReUse CSS Start */
+
+/* Navigation bar start */
+
+/* Mobile Hero Section Start */
+
+#mobile-header {
+    background-color: var(--primary-p500);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+/* Mobile menu Section Start */
+
+.mobile-navbar-icon {
+    width: 32px;
+    color: var(--neutral-n0);
+}
+
+.offcanvas-body,
+.offcanvas-header {
+    background-color: var(--primary-p500);
+}
+
+.btn-close {
+    --bs-btn-close-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path%20d='M.293.293a1%201%200%200%201%201.414%200L8%206.586%2014.293.293a1%201%200%201%201%201.414%201.414L9.414%208l6.293%206.293a1%201%200%200%201-1.414%201.414L8%209.414l-6.293%206.293a1%201%200%200%201-1.414-1.414L6.586%208%20.293%201.707a1%201%200%200%201%200-1.414z'/></svg>");
+}
+
+/* Mobile menu Section End */
+
+
+/* Desktop hero Start */
+
+.navbar-nav {
+    gap: 1rem;
+    align-items: center;
+}
+
+.responsive-position {
+    display: none;
+}
+
+.navbar-brand {
+    color: var(--additional-1-a500);
+    font-family: "Bricolage-Grotesque";
+    letter-spacing: 2px;
+
+    &:hover,
+    &:focus {
+        color: var(--additional-1-a500);
+    }
+}
+
+.nav-link {
+    color: var(--neutral-n0);
+    font-family: "Bricolage-Grotesque";
+    /* 144.444% */
+
+    &:hover,
+    &:focus {
+        color: var(--neutral-n0);
+    }
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: var(--neutral-n0);
+}
+
+.btn-primary {
+    color: var(--neutral-n0);
+    background: var(--additional-1-a500);
+
+    /* 144.444% */
+    letter-spacing: 1.8px;
+    border: none;
+    border-radius: 0;
+
+    &:hover {
+        background-color: var(--additional-1-a500);
+    }
+}
+
+.navbar-toggler {
+    border: none;
+
+    &:active {
+        border: none;
+    }
+}
+
+/* Navigation Section End */
+
+
+#desktop-hero {
+    background-color: var(--primary-p500);
+}
+
+/* Navigation bar End */
+
+
+
+
+
+/* Footer section Start */
+footer {
+    padding: 60px 0 40px;
+    background: var(--additional-2-a300);
+
+    hr {
+        background: #EBEBEB;
+    }
+}
+
+/* Footer Newsletter section Start */
+.newsletter-text {
+    h4 {
+        color: var(--primary-p500);
+        font-size: 28px;
+        line-height: 42px;
+        /* 131.25% */
+    }
+
+    p {
+        color: var(--neutral-n800);
+        font-size: 20px;
+        /* line-height: 36px; */
+        /* 180% */
+    }
+}
+
+.form-control {
+    border-radius: 0;
+
+    &:focus {
+        border-color: var(--primary-p500);
+        box-shadow: 0 0 0 0.25rem rgba(37, 87, 81, 0.25);
+    }
+}
+
+.subsBtn {
+    color: var(--neutral-n0);
+    background-color: var(--primary-p500);
+    border-radius: 0;
+    padding: 11px 29px;
+}
+
+/* Footer Newsletter section End */
+
+/* Footer Navigation Section Start */
+
+/* Footer Logo Text Start */
+.foot-logo {
+    h2 {
+        color: var(--primary-p500);
+        font-family: "Bricolage-Grotesque";
+        font-size: 3rem;
+        font-weight: 800;
+        line-height: 58px;
+        /* 120.833% */
+        letter-spacing: 9.6px;
+    }
+
+    p {
+        color: var(--neutral-n700);
+        font-size: 14px;
+        line-height: 24px;
+        /* 171.429% */
+    }
+}
+
+.foot-links {
+    h5 {
+        font-size: 18px;
+        color: var(--primary-p500);
+        line-height: 26px;
+        /* 162.5% */
+    }
+
+    .nav-items {
+        margin: 8px 0;
+    }
+
+    .nav-links {
+        color: var(--neutral-n800);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 171.429% */
+    }
+}
+
+/* Footer Logo Text end */
+
+/* Footer Navigation Section End */
+
+.footer-icons {
+    a {
+        display: inline-flex;
+        padding: 5px;
+        gap: 10px;
+        border: 1px solid var(--additional-1-a300);
+        background: var(--additional-1-a100);
+    }
+}
+
+/* Footer section End */
+
+
+/* ReUse CSS End */

@@ -1,0 +1,145 @@
+@media screen and (max-width: 575.98px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .right-content {
+        right: 15px;
+    }
+
+    .about-col-2 {
+        margin-bottom: 0rem !important;
+    }
+
+    .about-content-wrapper {
+        height: 663px;
+    }
+
+    .portfolio-img-lg {
+        height: 666px;
+    }
+
+    .portfolio-img-small {
+        height: 553px;
+
+    }
+
+    #testimonial {
+        .col-md-11 {
+            margin-top: -16px;
+            margin-right: -16px;
+        }
+    }
+
+    /* Pricing page CSS start */
+
+
+    #faq {
+
+        .container {
+            .row {
+                .col-md-6 {
+                    width: 46%;
+
+                    &:nth-child(2) {
+                        width: 54%;
+                    }
+                }
+            }
+        }
+    }
+
+    #hire {
+        .row {
+            .col-md-6 {
+
+                &:nth-child(1) {
+                    padding-left: 80px !important;
+                }
+            }
+        }
+    }
+
+    /* Pricing page CSS End */
+    /* About Us Page Start */
+
+    .about-img-2 {
+        margin: -35% 0 0 15% !important;
+    }
+
+    #about-section-1 {
+        .row-2 {
+            height: 20.75rem;
+        }
+    }
+
+    .about-hero-content {
+        .title {
+            h2 {
+                text-wrap: nowrap;
+            }
+        }
+    }
+
+    /* About Us Page End */
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    html {
+        font-size: 16px;
+    }
+
+    #mobile-header {
+        display: none;
+    }
+
+    .responsive-position {
+        display: flex !important;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    .left-content {
+        width: fit-content;
+        z-index: 1;
+        margin-left: -340px;
+    }
+
+    .right-content {
+        right: 15px;
+    }
+
+    .about-img {
+        width: 432.285px !important;
+        height: 607px !important;
+    }
+
+    .about-img-wrapper {
+        width: 438px !important;
+        height: 663px !important;
+        border: 1px solid var(--primary-p500);
+        padding-left: 36px;
+
+        h5 {
+            letter-spacing: 2px;
+            color: var(--primary-p500);
+            margin: 30px 0;
+        }
+    }
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

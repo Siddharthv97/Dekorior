@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dekorior</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.css" />
+
+    <!-- Custom CSS  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- Header Section Start -->
+
+    <header id="mobile-header" class="container-fluid">
+      <!-- NavBar Menu Start -->
+      <nav class="d-flex justify-content-between py-3">
+        <div class="logo">
+          <a
+            href="./index.html"
+            class="navbar-brand fs-36 text-uppercase fw-bolder"
+            >Dekorior</a
+          >
+        </div>
+        <a
+          class="btn"
+          data-bs-toggle="offcanvas"
+          href="#offcanvasExample"
+          role="button"
+          aria-controls="offcanvasExample"
+        >
+          <img
+            src="./assets/image/icons/navbar-icon.svg"
+            class="mobile-navbar-icon"
+          />
+        </a>
+      </nav>
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5
+            class="offcanvas-title navbar-brand fs-36 text-uppercase fw-bolder"
+            id="offcanvasExampleLabel"
+          >
+            Dekorior
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+
+        <div class="offcanvas-body">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize fs-18 lh-26 fw-bold"
+                aria-current="page"
+                href="/index.html"
+                ><sup class="me-2 fw-normal">01</sup>Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize fs-18 lh-26 fw-bold"
+                href="/About.html"
+                ><sup class="me-2 fw-normal">02</sup>About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize fs-18 lh-26 fw-bold"
+                href="/Services.html"
+                ><sup class="me-2 fw-normal">03</sup>Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-capitalize fs-18 lh-26 fw-bold"
+                href="/Teams.html"
+                ><sup class="me-2 fw-normal">04</sup>Portfolio</a
+              >
+            </li>
+            <a
+              href="./Contact.html"
+              class="btn btn-primary fs-18 lh-26 fw-semibold text-uppercase px-4 py-2"
+              role="button"
+              >Contact Us</a
+            >
+          </ul>
+        </div>
+      </div>
+      <!-- NavBar Menu End -->
+    </header>
+
+    <!-- Header Section Start -->
+
+    <!-- Hero Section Start -->
+
+    <section id="desktop-hero">
+      <nav
+        class="navbar navbar-expand-lg bg-body-transparent py-lg-3 responsive-position"
+      >
+        <div class="container">
+          <a
+            class="navbar-brand fs-36 lh-46 text-uppercase fw-bolder"
+            href="/index.html"
+            >Dekorior</a
+          >
+          <div class="justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-capitalize fs-18 lh-26 fw-bold"
+                  aria-current="page"
+                  href="/index.html"
+                  ><sup class="me-2 fw-normal">01</sup>Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-capitalize fs-18 lh-26 fw-bold"
+                  href="/About.html"
+                  ><sup class="me-2 fw-normal">02</sup>About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-capitalize fs-18 lh-26 fw-bold"
+                  href="/Services.html"
+                  ><sup class="me-2 fw-normal">03</sup>Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-capitalize fs-18 lh-26 fw-bold"
+                  href="/Teams.html"
+                  ><sup class="me-2 fw-normal">04</sup>Portfolio</a
+                >
+              </li>
+              <a
+                href="./Contact.html"
+                class="btn btn-primary fs-18 lh-26 fw-semibold text-uppercase px-4 py-2"
+                role="button"
+                >Contact Us</a
+              >
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="pricing-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 pricing-hero-section d-flex align-items-center">
+              <div class="pricing-hero-content">
+                <div class="subtitle d-flex align-items-center gap-3">
+                  <h2
+                    class="text-uppercase lh-32 fw-semibold fs-5 text-white mb-3"
+                  >
+                    Explore the features
+                  </h2>
+                  <hr />
+                </div>
+                <div class="title position-relative">
+                  <h1 class="fw-bold text-capitalize lh-106">Pricing</h1>
+                  <h2 class="fw-bold lh-106 text-capitalize position-absolute">
+                    Pricing
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hero Section End -->
+
+    <!-- pricing plans Section Start -->
+
+    <section id="pricing-plans" class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div
+              class="subheading-title d-flex align-items-center justify-content-center gap-3 mb-3"
+            >
+              <hr />
+              <h3 class="text-uppercase lh-32 fw-semibold fs-5">
+                pricing plans
+              </h3>
+              <hr />
+            </div>
+            <div class="heading-title">
+              <h1 class="fw-bold lh-72 text-capitalize display-4">
+                choose the right plan
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-5 pricing-card-wrapper">
+          <!-- Card 1 -->
+          <div class="col-12 col-md-6 col-lg-3 g-md-0">
+            <div class="pricing-card-container border">
+              <div class="pricing-card">
+                <div
+                  class="card-img-container d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/image/icons/person.svg"
+                    alt=""
+                    class="card-img"
+                  />
+                </div>
+                <h3
+                  class="pricing-card-title fw-semibold lh-42 text-capitalize fs-2"
+                >
+                  Personal
+                </h3>
+                <p class="pricing-card-text fw-normal lh-32 fs-5">
+                  Best for Personal Project
+                </p>
+                <div class="pricing-card-payment d-flex align-items-end">
+                  <h2
+                    class="price mb-0 fw-bold lh-74 text-capitalize display-3"
+                  >
+                    $100
+                  </h2>
+                  <span class="fs-6 lh-26 fw-medium">/ 1x Payment</span>
+                </div>
+                <hr />
+                <p class="pricing-card-info fw-normal lh-32 fs-5">
+                  This category typically offers access to the gym's facilities
+                  and equipment.
+                </p>
+                <ul>
+                  <li>
+                    <img src="./assets/image/icons/tick.svg" alt="" /><span
+                      >12 trainings</span
+                    >
+                  </li>
+                  <li>
+                    <img src="./assets/image/icons/tick.svg" alt="" />
+                    <span>Free shower & lockers</span>
+                  </li>
+                  <li>
+                    <img src="./assets/image/icons/tick.svg" alt="" />
+                    <span>Personal Yoga Mat</span>
+                  </li>
+                  <li>
+                    <img src="./assets/image/icons/tick.svg" alt="" />
+                    <span>Free Parking</span>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="btn fs-18 fw-semibold text-uppercase lh-26 text-center"
+                  >choose plan</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-12 col-md-6 col-lg-3 g-md-0">
+            <div class="pricing-card-container border">
+              <div class="pricing-card">
+                <div
+                  class="card-img-container d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/image/icons/home.svg"
+                    alt=""
+                    class="card-img"
+                  />
+                </div>
+                <h3
+                  class="pricing-card-title fw-semibold lh-42 text-capitalize fs-2"
+                >
+                  Business
+                </h3>
+                <p class="pricing-card-text fw-normal lh-32 fs-5">
+                  Best for Business Project
+                </p>
+                <div class="pricing-card-payment d-flex align-items-end">
+                  <h2
+                    class="price mb-0 fw-bold lh-74 text-capitalize display-3"
+                  >
+                    $200
+                  </h2>
+                  <span class="fs-6 lh-26 fw-medium">/ 1x Payment</span>
+                </div>
+                <hr />
+                <p class="pricing-card-info fw-normal lh-32 fs-5">
+                  This category typically offers access to the gym's facilities
+                  and equipment.
+                </p>
+                <ul>
+                  <li>
+                    <img src="./assets/image/icons/tick.svg" alt="" /><span
+                      >12 trainings</span
+                    >
+                  </li>
+                  <li>
+                    <img src="./assets/image/icons/tick.svg" alt="" />
+                    <span>Free shower & lockers</span>
+                  </li>
+                  <li>
+                    <img src="./assets/image/icons/tick.svg" alt="" />
+                    <span>Personal Yoga Mat</span>
+                  </li>
+                  <li>
+                    <img src="./assets/image/icons/tick.svg" alt="" />
+                    <span>Free Parking</span>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="btn fs-18 fw-semibold text-uppercase lh-26 text-center"
+                  >choose plan</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+
+          <div class="col-12 col-md-6 col-lg-3 g-md-0">
+            <div class="pricing-card-container border">
+              <div class="pricing-card">
+                <div
+                  class="card-img-container d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/image/icons/layers.svg"
+                    alt=""
+                    class="card-img"
+                  />
+                </div>
+                <h3
+                  class="pricing-card-title fw-semibold lh-42 text-capitalize fs-2"
+                >
+                  Building
+                </h3>
+                <p class="pricing-card-text fw-normal lh-32 fs-5">
+                  Best for Build Constraction
+                </p>
+                <div class="pricing-card-payment d-flex align-items-end">
+                  <h2
+                    class="price mb-0 fw-bold lh-74 text-capitalize display-3"
+                  >
+                    $400
+                  </h2>
+                  <span class="fs-6 lh-26 fw-medium">/ 1x Payment</span>
+                </div>
+                <hr />
+                <p class="pricing-card-info fw-normal lh-32 fs-5">
+                  This category typically offers access to the gym's facilities
+                  and equipment.
+                </p>
+                <ul>
+                  <li>
+                    <img src="./assets/image/icons/tick.svg" alt="" /><span
+                      >12 trainings</span
+                    >
+                  </li>
+                  <li>
+                    <img src="./assets/image/icons/tick.svg" alt="" />
+                    <span>Free shower & lockers</span>
+                  </li>
+                  <li>
+                    <img src="./assets/image/icons/tick.svg" alt="" />
+                    <span>Personal Yoga Mat</span>
+                  </li>
+                  <li>
+                    <img src="./assets/image/icons/tick.svg" alt="" />
+                    <span>Free Parking</span>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  class="btn fs-18 fw-semibold text-uppercase lh-26 text-center"
+                  >choose plan</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- pricing plans Section End -->
+
+    <!-- FAQ pricing plans Section Start -->
+
+    <section id="faq" class="container-fluid">
+      <div class="container">
+        <div class="row gap-5 gap-lg-0">
+          <div class="col-12 col-lg-6">
+            <div
+              class="faq-wrapper d-flex flex-column justify-content-between align-items-center gap-3 align-items-lg-start"
+            >
+              <div class="sm-heading d-flex align-items-center gap-3">
+                <h4 class="mb-0 fs-5 fw-semibold text-uppercase lh-32">FAQ</h4>
+                <hr />
+              </div>
+              <h2 class="fw-bold lh-62 display-4 text-capitalize">
+                About pricing plan
+              </h2>
+              <div class="d-flex align-items-start">
+                <div
+                  class="nav flex-column nav-pills me-3 faq-list-wrapper"
+                  id="v-pills-tab"
+                  role="tablist"
+                  aria-orientation="vertical"
+                >
+                  <button
+                    class="nav-link active text-start fs-4 lh-36"
+                    id="v-pills-faq-1-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-faq-1"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-faq-1"
+                    aria-selected="true"
+                  >
+                    How can I find a pricing plan that suits me?
+                  </button>
+
+                  <button
+                    class="nav-link text-start fs-4 lh-36"
+                    id="v-pills-faq-2-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-faq-2"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-faq-2"
+                    aria-selected="false"
+                  >
+                    How to choose service and pricing plan?
+                  </button>
+
+                  <button
+                    class="nav-link text-start fs-4 lh-36"
+                    id="v-pills-faq-3-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-faq-3"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-faq-3"
+                    aria-selected="false"
+                  >
+                    Is there any warranty for each plan?
+                  </button>
+
+                  <button
+                    class="nav-link text-start fs-4 lh-36"
+                    id="v-pills-faq-4-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-faq-4"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-faq-4"
+                    aria-selected="false"
+                  >
+                    How to choose service and pricing plan?
+                  </button>
+
+                  <button
+                    class="nav-link text-start fs-4 lh-36"
+                    id="v-pills-faq-5-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-faq-5"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-faq-5"
+                    aria-selected="false"
+                  >
+                    Is there any warranty for each plan?
+                  </button>
+
+                  <button
+                    class="nav-link text-start fs-4 lh-36"
+                    id="v-pills-faq-6-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-faq-6"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-faq-6"
+                    aria-selected="false"
+                  >
+                    Is that fit if i choose building plan for office?
+                  </button>
+
+                  <button
+                    class="nav-link text-start fs-4 lh-36"
+                    id="v-pills-faq-7-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-faq-7"
+                    type="button"
+                    role="tab"
+                    aria-controls="v-pills-faq-7"
+                    aria-selected="false"
+                  >
+                    Is that fit if i choose building plan for office?
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 faq-content-wrapper">
+            <div class="tab-content" id="v-pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="v-pills-faq-1"
+                role="tabpanel"
+                aria-labelledby="v-pills-faq-1-tab"
+                tabindex="0"
+              >
+                <h2 class="fs-2 fw-bold lh-44">
+                  How can I find a pricing plan that suits me?
+                </h2>
+                <p class="fs-5 fw-normal lh-32">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas in nisi lacus. Quisque ut sapien ut ligula egestas
+                  iaculis at non lorem. Pellentesque ante risus, malesuada et
+                  mollis eu, fringilla vel leo. Fusce bibendum placerat
+                  accumsan. Class aptent taciti
+                </p>
+                <p class="fs-5 fw-normal lh-32">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas in nisi lacus. Quisque ut sapien ut ligula egestas
+                  iaculis at non lorem.
+                </p>
+                <ul>
+                  <li>Lorem ipsum 1</li>
+                  <li>Lorem ipsum 2</li>
+                  <li>Lorem ipsum 3</li>
+                  <li>Lorem ipsum 4</li>
+                </ul>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-faq-2"
+                role="tabpanel"
+                aria-labelledby="v-pills-faq-2-tab"
+                tabindex="0"
+              >
+                <h2 class="fs-2 fw-bold lh-44">FAQ 2</h2>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-faq-3"
+                role="tabpanel"
+                aria-labelledby="v-pills-faq-3-tab"
+                tabindex="0"
+              >
+                <h2 class="fs-2 fw-bold lh-44">FAQ 3</h2>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-faq-4"
+                role="tabpanel"
+                aria-labelledby="v-pills-faq-4-tab"
+                tabindex="0"
+              >
+                <h2 class="fs-2 fw-bold lh-44">FAQ 4</h2>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-faq-5"
+                role="tabpanel"
+                aria-labelledby="v-pills-faq-5-tab"
+                tabindex="0"
+              >
+                <h2 class="fs-2 fw-bold lh-44">FAQ 5</h2>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-faq-6"
+                role="tabpanel"
+                aria-labelledby="v-pills-faq-6-tab"
+                tabindex="0"
+              >
+                <h2 class="fs-2 fw-bold lh-44">FAQ 6</h2>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-faq-7"
+                role="tabpanel"
+                aria-labelledby="v-pills-faq-7-tab"
+                tabindex="0"
+              >
+                <h2 class="fs-2 fw-bold lh-44">FAQ 7</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ pricing plans Section End -->
+
+    <!-- Hire us Section Start -->
+
+    <section id="hire" class="container-fluid">
+      <div class="row">
+        <div
+          class="col-12 col-md-6 d-flex justify-content-evenly flex-column align-items-start ps-5 ps-md-3"
+        >
+          <div class="hire-text-content">
+            <h2 class="fw-bold lh-67 display-5 mb-4">
+              Interested in trying our plan?
+            </h2>
+            <p class="fw-normal lh-34 fs-4">Click the button bellow!</p>
+          </div>
+          <a href="#" class="text-uppercase lh-26 fw-medium">hire us now</a>
+        </div>
+        <div class="col-12 col-md-6"></div>
+      </div>
+    </section>
+
+    <!-- Hire us Section End -->
+
+    <app-footer></app-footer>
+
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+
+    <!-- GSAP CDN Start -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+
+    <!-- GSAP CDN End -->
+    <script src="./assets/js/animation.js"></script>
+    <script type="module" src="./assets/js/app.js"></script>
+  </body>
+</html>
